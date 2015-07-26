@@ -4,6 +4,6 @@ var express = require( './config/express' );
 
 var app = express();
 
-app.listen( 80, '127.0.0.1' );
+app.listen( 8080, '127.0.0.1' );
 
-console.log( 'temp app running at http://localhost:3030/' );
+console.log( 'temp app running at http://127.0.0.1:8080/' );
